@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <title>接口测试</title>
+    <host>www.xxxxxx.com</host>
+    <port>80</port>
+    <No>[]</No>
+    <InterfaceList>
+        <id>1001</id>
+        <name>登陆</name>
+        <method>POST</method>
+        <url>/Login</url>
+        <hope>{"LoginStatus":Input your API expected JSON data}</hope>
+        <params>{"account":"","password":"","type":"0"}</params>
+        <login>1</login>
+        <isList>0</isList>
+    </InterfaceList>
+</root>
